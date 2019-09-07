@@ -1,0 +1,242 @@
+.phonoLogoImg{
+    background-color: black;
+    padding-bottom:10rem;
+    padding-top:10rem;
+    margin-top:6rem;
+    border:0;
+}
+.content {
+  position: relative;
+}
+form{ 
+    background: rgba(28, 28, 29, 0.57); 
+    color: white;
+    padding-bottom: 5.2px; 
+    box-shadow: 5px 5px 5px rgba(6, 1, 1, 0.43) 
+    }
+h3{
+    color: rgba(222,222,222,0.9);
+}
+u{
+  color: rgba(182,14,31,60.5);
+}
+.anyClass {
+  height: 30rem;
+  overflow-y: scroll;
+}
+.nowrap{
+  white-space: nowrap;
+  }
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 70px;
+  font-family: 'Fresca', sans-serif;
+}
+footer {
+  padding: 30px 0;
+}
+.extraSpace{
+  padding: 1.5rem;
+}
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+  .row-offcanvas-right {
+    right: 0;
+  }
+  .row-offcanvas-left {
+    left: 0;
+  }
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -100%; /* 12 columns */
+  }
+  .row-offcanvas-right.active
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -100%; /* 12 columns */
+  }
+  .row-offcanvas-left.active
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 25%; /* 6 columns */
+  }
+  .pl-c {
+    padding-left: 4rem;
+  } 
+}
+.wow { 
+  visibility: hidden; 
+}
+
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoInstagram:hover {
+	background-color:#dc2c74;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoYelp:hover {
+	background-color:#d32324;
+}
+.social-network a.icoGal:hover {
+	background-color:#ffcb3f;
+}
+.social-network a.icoLocal:hover {
+	background-color:#34a853;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+.calendar1 {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.loading1 {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.mobile-fixed-top{
+  position: fixed; 
+  z-index: 1030;
+}
+.mobile-pt{
+  padding-top: 5rem;
+}
+.dropdown-fix{
+  margin: 0.125rem -15px 0px;
+}
+.icon-fix{
+  width:150px;
+  color: #fff;
+}
+.gallery-fix{
+  margin-top:13rem !important;
+}
+.nav-fix{
+  padding-left: 9%;
+}
+.rightclickfix{
+  border-radius: 4.25rem;
+  padding: 0;
+}
+/*Media changes for mobile nav bar */
+/*iPhone 6 & 7 in portrait & landscape*/
+@media only screen and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  .MQ-m{
+    margin: .25rem .25rem!important;
+  } 
+}
+/*iPhone 6 & 7 Plus in portrait & landscape*/
+@media only screen and (min-device-width : 410px) 
+and (max-device-width : 736px) { 
+  .MQ-m{
+    margin: .5rem .5rem!important;
+  } 
+}
